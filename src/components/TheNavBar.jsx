@@ -8,8 +8,8 @@ const TheNavBar = () => {
   };
 
   return (
-    <nav className="relative z-10">
-      <div className="bg-primary-black flex justify-between items-center px-14 py-5">
+    <nav>
+      <div className="bg-primary-black flex justify-between items-center p-5 sm:px-14">
         <h3 className="text-3xl font-bold text-yellow-400">Subair Ihsan</h3>
 
         <ul
