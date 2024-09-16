@@ -44,7 +44,10 @@ const TheAboutPage = () => {
           {/* Email */}
           <div className="flex item-center gap-x-5 mb-1.5 text-[11px] sm:text-base">
             <span className="text-yellow-400">Email: </span>
-            <Link className="text-gray-200" to="mailto:ihsanmomz@gmail.com">
+            <Link
+              className="text-gray-200 hover:opacity-80"
+              to="mailto:ihsanmomz@gmail.com"
+            >
               ihsanmomz@gmail.com
             </Link>
           </div>
@@ -52,7 +55,10 @@ const TheAboutPage = () => {
           {/* Phone */}
           <div className="flex item-center gap-x-5 mb-1.5 text-[11px] sm:text-base">
             <span className="text-yellow-400">Phone No: </span>
-            <Link className="text-gray-200" to="tel:+966503738512">
+            <Link
+              className="text-gray-200 hover:opacity-80"
+              to="tel:+966503738512"
+            >
               +966503738512
             </Link>
           </div>
@@ -87,7 +93,7 @@ const TheAboutPage = () => {
           <div className="flex item-center gap-x-5 mb-1.5 text-[11px] sm:text-base">
             <span className="text-yellow-400">LinkedIn: </span>
             <Link
-              className="text-gray-200"
+              className="text-gray-200 hover:opacity-80"
               target="_blank"
               to="https://www.linkedin.com/in/ihsan-momz/"
             >
