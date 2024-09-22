@@ -7,7 +7,7 @@ import { AiFillInstagram } from "react-icons/ai";
 const TheFooter = () => {
   return (
     <div className="bg-yellow-400 sm:p-3">
-      <p className="text-center font-semibold text-xs sm:text-lg">
+      <p className="text-center font-semibold text-xs sm:text-lg px-3 pt-3 sm:p-0">
         Copyright&copy; - {new Date().getFullYear()} | Design and Developed by:{" "}
         <Link
           to={"https://github.com/Mushkir"}
