@@ -5,6 +5,7 @@ import "./index.css";
 import TheGuestLayout from "./layouts/TheGuestLayout.jsx";
 import TheHomePage from "./pages/TheHomePage.jsx";
 import TheAboutPage from "./pages/TheAboutPage.jsx";
+import TheExperiencePage from "./pages/TheExperiencePage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <TheAboutPage />,
+      },
+      {
+        path: "/experience",
+        element: <TheExperiencePage />,
       },
     ],
   },
