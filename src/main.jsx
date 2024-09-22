@@ -6,6 +6,8 @@ import TheGuestLayout from "./layouts/TheGuestLayout.jsx";
 import TheHomePage from "./pages/TheHomePage.jsx";
 import TheAboutPage from "./pages/TheAboutPage.jsx";
 import TheExperiencePage from "./pages/TheExperiencePage.jsx";
+import TheEducationPage from "./pages/TheEducationPage.jsx";
+import TheSkillsPage from "./pages/TheSkillsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "/experience",
         element: <TheExperiencePage />,
+      },
+      {
+        path: "/education",
+        element: <TheEducationPage />,
+      },
+      {
+        path: "/skills",
+        element: <TheSkillsPage />,
       },
     ],
   },

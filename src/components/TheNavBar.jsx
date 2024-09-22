@@ -10,7 +10,9 @@ const TheNavBar = () => {
   return (
     <nav>
       <div className="bg-primary-black flex justify-between items-center p-5 sm:px-14">
-        <h3 className="text-3xl font-bold text-yellow-400">Subair Ihsan</h3>
+        <NavLink to={"/"} className="text-3xl font-bold text-yellow-400">
+          Subair Ihsan
+        </NavLink>
 
         <ul
           className={`text-white space-x-8  hidden xl:flex items-center text-xl ${

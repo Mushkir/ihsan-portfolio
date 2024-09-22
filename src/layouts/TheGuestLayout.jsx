@@ -1,11 +1,15 @@
 import { Outlet } from "react-router-dom";
 import TheNavBar from "../components/TheNavBar";
+import TheFooter from "../components/TheFooter";
 
 const TheGuestLayout = () => {
   return (
     <div className="font-nunito">
       <TheNavBar />
-      <Outlet />
+      <main className="min-h-[calc(100vh-120px)]">
+        <Outlet />
+      </main>
+      <TheFooter />
     </div>
   );
 };
