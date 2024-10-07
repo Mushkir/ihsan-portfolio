@@ -1,6 +1,5 @@
 import React from "react";
 import TheEducationItems from "../components/TheEducationItems";
-// import { PiBuildingsFill } from "react-icons/pi";
 
 const TheEducationPage = () => {
   return (
@@ -9,7 +8,7 @@ const TheEducationPage = () => {
       <div className="md:flex mx-auto sm:mx-0 justify-center gap-x-10 items-start mb-10 md:mb-0 lg:mx-20">
         <img
           className="w-[200px] h-[200px] mx-auto md:w-[300px] md:h-[300px] rounded-full border-4 border-yellow-400 object-cover object-center mb-5 lg:mb-0"
-          src="/ihsan_profile_1.JPG"
+          src="/ihsan_img.JPG"
           alt="Ihsan Momz image"
         />
 
