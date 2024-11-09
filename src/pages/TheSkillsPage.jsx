@@ -3,7 +3,7 @@ import TheSkillsListItem from "../components/TheSkillsListItem";
 
 const TheSkillsPage = () => {
   return (
-    <div className="font-nunito bg-primary-black max-w-[1500px] px-2 md:px-14 py-8">
+    <div className="font-nunito bg-blue_100 max-w-[1500px] px-2 md:px-14 py-8">
       {/* lg:pt-[150px] xl:pt-[190px] */}
       <div className="flex sm:pt-[80px]">
         {/* Hero img */}

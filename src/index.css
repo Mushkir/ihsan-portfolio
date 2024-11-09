@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 #activeMenu a.active {
-  @apply text-yellow-400 font-bold;
+  @apply text-blue_50 font-bold;
 }

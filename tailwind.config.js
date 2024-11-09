@@ -8,6 +8,9 @@ export default {
       },
       colors: {
         "primary-black": "#1E201E",
+        blue_100: "#1D3557",
+        blue_50: "#A8DADC",
+        bone_white: "#F1FAEE",
       },
     },
   },

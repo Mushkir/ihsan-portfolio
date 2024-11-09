@@ -9,8 +9,11 @@ const TheNavBar = () => {
 
   return (
     <nav>
-      <div className="bg-primary-black flex justify-between items-center p-5 sm:px-14">
-        <NavLink to={"/"} className="text-3xl font-bold text-yellow-400">
+      <div className="bg-blue_100 flex justify-between items-center p-5 sm:px-14 sm:py-10">
+        <NavLink
+          to={"/"}
+          className="text-2xl sm:text-4xl font-bold text-bone_white"
+        >
           Subair Ihsan
         </NavLink>
 
