@@ -50,7 +50,7 @@ const TheNavBar = () => {
 
         <div className="xl:hidden">
           <button
-            className="focus:outline-none text-yellow-400"
+            className="focus:outline-none text-bone_white"
             onClick={toggleMenu}
           >
             <svg
@@ -71,13 +71,9 @@ const TheNavBar = () => {
         </div>
       </div>
 
-      <div
-        className={` text-main-heading-color xl:hidden mt-4 ${
-          isOpen ? "block" : "hidden"
-        }`}
-      >
+      <div className={`xl:hidden mt-4 ${isOpen ? "block" : "hidden"}`}>
         <ul
-          className="flex flex-col items-end pr-14 bg-primary-black space-y-5 text-white"
+          className="flex flex-col items-end pr-14 bg-blue_100 space-y-5 text-white"
           id="activeMenu"
         >
           <li>
