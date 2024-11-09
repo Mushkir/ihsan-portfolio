@@ -7,3 +7,17 @@
 #activeMenu a.active {
   @apply text-blue_25 font-bold;
 }
+
+body {
+  @apply bg-blue_100;
+}
+
+/* .progress-bar {
+  position: fixed;
+  top: 7rem;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+} */

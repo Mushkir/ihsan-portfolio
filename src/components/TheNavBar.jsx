@@ -8,8 +8,8 @@ const TheNavBar = () => {
   };
 
   return (
-    <nav>
-      <div className="bg-blue_100 flex justify-between items-center p-5 sm:px-14 sm:py-10">
+    <nav className=" fixed left-0 right-0">
+      <div className="bg-blue_100 flex justify-between items-center p-5 sm:px-14 md:py-10">
         <NavLink
           to={"/"}
           className="text-2xl sm:text-4xl font-bold text-bone_white"
