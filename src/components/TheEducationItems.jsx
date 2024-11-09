@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 const TheEducationItems = ({ name, orgName, country }) => {
   return (
-    <div className="border rounded-md p-2 sm:p-5 border-yellow-400 mb-5">
-      <h3 className="text-white text-lg flex sm:items-center gap-x-2">
+    <div className="border-2 rounded-md p-2 sm:p-5 border-blue_100 mb-5">
+      <h3 className="text-blue_100 text-lg flex sm:items-center gap-x-2">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const TheEducationItems = ({ name, orgName, country }) => {
 
       <div>
         {/* Company Name div */}
-        <div className="flex sm:items-center gap-2 px-1 sm:px-7 mt-1 italic text-gray-300">
+        <div className="flex sm:items-center gap-2 px-1 sm:px-7 mt-1 italic text-bone_white">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
