@@ -9,7 +9,9 @@ export default {
       colors: {
         "primary-black": "#1E201E",
         blue_100: "#1D3557",
-        blue_50: "#A8DADC",
+        blue_50: "#457B9D",
+        blue_25: "#A8DADC",
+        sky_blue: "#607189",
         bone_white: "#F1FAEE",
       },
     },
