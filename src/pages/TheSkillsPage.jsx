@@ -3,20 +3,20 @@ import TheSkillsListItem from "../components/TheSkillsListItem";
 
 const TheSkillsPage = () => {
   return (
-    <div className="font-nunito bg-blue_100 max-w-[1500px] px-2 md:px-14 py-8">
+    <div className="font-nunito bg-sky_blue max-w-[1500px] px-1.5 md:px-14 py-8">
       {/* lg:pt-[150px] xl:pt-[190px] */}
       <div className="flex sm:pt-[80px]">
         {/* Hero img */}
         <div className="md:flex mx-auto sm:mx-0 justify-center gap-x-10 items-start sm:mb-10 md:mb-0">
           <img
-            className="w-[200px] h-[200px] mx-auto md:w-[300px] md:h-[300px] rounded-full border-4 border-yellow-400 object-cover object-center mb-5 lg:mb-0"
+            className="w-[200px] h-[200px] mx-auto md:w-[300px] md:h-[300px] rounded-full border-4 border-blue_100 object-cover object-center mb-5 lg:mb-0"
             src="/ihsan_pic.JPG"
             alt="Ihsan Momz image"
           />
 
-          <div className="border rounded-md p-2 sm:p-5 border-yellow-400 mb-5">
-            <h3 className="text-xl text-white font-bold">Special Skills</h3>
-            <ul className="text-gray-400 list-disc px-5 mt-2 space-y-2">
+          <div className="border-2 rounded-md p-2 sm:p-5 border-blue_100 mb-5">
+            <h3 className="text-xl text-blue_100 font-bold">Special Skills</h3>
+            <ul className="text-bone_white list-disc px-5 mt-2 space-y-2">
               <li>
                 Good Computer, Word, Spreadsheets, Operations and Communication
                 Skills.
