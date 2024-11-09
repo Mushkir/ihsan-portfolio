@@ -42,10 +42,6 @@ const TheNavBar = () => {
           <li>
             <NavLink to="/skills">Skills</NavLink>
           </li>
-
-          <li>
-            <NavLink to="/resume">Resume</NavLink>
-          </li>
         </ul>
 
         <div className="xl:hidden">
@@ -94,10 +90,6 @@ const TheNavBar = () => {
 
           <li>
             <NavLink to="/skills">Skills</NavLink>
-          </li>
-
-          <li>
-            <NavLink to="/resume">Resume</NavLink>
           </li>
         </ul>
       </div>
