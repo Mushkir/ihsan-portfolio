@@ -3,9 +3,9 @@ import TheSkillsListItem from "../components/TheSkillsListItem";
 
 const TheSkillsPage = () => {
   return (
-    <div className="font-nunito bg-sky_blue max-w-[1500px] px-1.5 md:px-14 py-8">
+    <div className="font-nunito bg-sky_blue max-w-[1500px] px-1.5 md:px-14 pt-[9rem] sm:py-[8rem] lg:pt-[14rem] xl:pt-[17rem]">
       {/* lg:pt-[150px] xl:pt-[190px] */}
-      <div className="flex sm:pt-[80px]">
+      <div className="flex">
         {/* Hero img */}
         <div className="md:flex mx-auto sm:mx-0 justify-center gap-x-10 items-start sm:mb-10 md:mb-0">
           <img

@@ -2,7 +2,7 @@ import TheListItems from "../components/TheListItems";
 
 const TheExperiencePage = () => {
   return (
-    <div className="font-nunito bg-sky_blue max-w-[1500px] px-1.5 sm:px-14 py-8 flex sm:pt-[80px] lg:pt-[150px] xl:pt-[190px]">
+    <div className="font-nunito bg-sky_blue max-w-[1500px] px-1.5 sm:px-14 py-8 flex pt-[9rem] sm:py-[8rem] lg:pt-[14rem] xl:pt-[17rem]">
       {/* Hero img */}
       <div className="lg:flex justify-center gap-x-10 items-start mb-10 md:mb-0 lg:mx-20">
         <img

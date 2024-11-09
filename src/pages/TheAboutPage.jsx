@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const TheAboutPage = () => {
   return (
     // sm:pr-[3rem] md:pr-[5rem] xl:pr-[10rem] flex-col sm:flex-row
-    <div className="font-nunito bg-sky_blue px-1.5 sm:px-14 py-8 flex flex-wrap sm:pt-[80px] lg:pt-[150px] xl:pt-[190px]">
+    <div className="font-nunito bg-sky_blue px-1.5 sm:px-14 py-8 flex flex-wrap pt-[9rem] sm:py-[8rem] lg:pt-[14rem] xl:pt-[17rem]">
       {/* Hero img */}
       <div className="lg:flex justify-center gap-x-10 items-start mb-10 md:mb-0 lg:mx-20">
         <img
