@@ -18,7 +18,7 @@ const TheNavBar = () => {
         </NavLink>
 
         <ul
-          className={`text-white space-x-8  hidden xl:flex items-center text-xl ${
+          className={`text-white space-x-8  hidden lg:flex items-center text-xl ${
             isOpen ? "block" : "hidden"
           }`}
           id="activeMenu"
@@ -44,7 +44,7 @@ const TheNavBar = () => {
           </li>
         </ul>
 
-        <div className="xl:hidden">
+        <div className="lg:hidden">
           <button
             className="focus:outline-none text-bone_white"
             onClick={toggleMenu}
@@ -67,9 +67,9 @@ const TheNavBar = () => {
         </div>
       </div>
 
-      <div className={`xl:hidden mt-4 ${isOpen ? "block" : "hidden"}`}>
+      <div className={`lg:hidden ${isOpen ? "block" : "hidden"}`}>
         <ul
-          className="flex flex-col items-end pr-14 bg-blue_100 space-y-5 text-white"
+          className="flex flex-col items-end pr-5 sm:pr-14 pb-2 bg-blue_100 space-y-5 text-white"
           id="activeMenu"
         >
           <li>
